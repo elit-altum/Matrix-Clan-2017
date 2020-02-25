@@ -1,0 +1,243 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+
+
+html,body {
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	
+	background: url(main.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	font-weight: 400;
+	font-size: 15px;
+	color: #aa3e03;
+	overflow-y: scroll;
+	overflow-x: hidden;
+    min-width: 100vw;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+
+.container{
+	position: relative;
+	text-align: center;
+}
+
+
+/* future buttons*/
+
+
+
+.row{
+    min-width: 500vw;
+    width: auto;
+}
+
+#demo{
+    text-align: center;
+    font-size: 5vh;
+    color: #fff;
+    padding-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding-top: -8px;
+    padding-left: 25px;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    #demo{
+    text-align: center;
+    font-size: 3vh;
+    color: #fff;
+    padding-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding-top: -8px;
+    padding-left: 25px;
+}
+
+}
+
+
+
+
+.teasetext{
+    text-align: center;
+    font-size: 3.2vh;
+    font-family: 'Montserrat';
+    padding-top: 10px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 45px;
+}
+
+.button{
+    display: block;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button > a{
+
+    width: auto;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    text-transform: none;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 2px;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    text-align: center;
+    border-width: 2px;
+    transition: all .25s ease-in;
+
+}
+
+.button > a:hover{
+    color: #212121;
+    background-color: #fff;
+}
+
+.button2{
+    display: block;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button2 > a{
+
+    width: auto;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    text-transform: none;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 2px;
+    padding-right: 14vh;
+    padding-left: 14vh;
+    text-align: center;
+    border-width: 2px;
+    transition: all .25s ease-in;
+
+}
+
+.button2 > a:hover{
+    color: #212121;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .buttons{
+    width: 100%;
+    margin-top: 45px;
+}
+
+.button{
+    display: block;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button > a{
+
+    width: auto;
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    text-transform: none;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 2px;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    text-align: center;
+    border-width: 2px;
+    transition: all .5s ease-in;
+
+}
+
+.button > a:hover{
+    color: #212121;
+    background-color: #fff;
+}
+
+.button2{
+    display: block;
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button2 > a{
+
+    width: auto;
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    text-transform: none;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 2px;
+    padding-right: 14vh;
+    padding-left: 14vh;
+    text-align: center;
+    border-width: 2px;
+     transition: all .5s ease-in;
+
+}
+.button2 > a:hover{
+    color: #212121;
+    background-color: #fff;
+}
+
+}
+
+
+
+
+

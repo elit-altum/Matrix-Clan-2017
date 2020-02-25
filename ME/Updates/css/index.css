@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,600');
+
+
+html, body {
+    background: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;   
+
+}
+
+.fixednav{
+    position: fixed;
+    top: 0px;
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 18px;
+    font-weight: 800;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    z-index: 999999;
+}
+
+@media (max-width: 600px)
+{
+    .fixednav
+    {
+    position: fixed;
+    top: 0px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 5px;
+    z-index: 999999;
+    }
+}
+
+
+
+
+.navtext > a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.navtext > a:hover{
+    text-decoration: none;
+}
+
+.navtext > a:after{
+    text-decoration: none;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #212121;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+@media (max-width: 600px){
+
+    .heading{
+    text-align: center;
+    font-size: 9vh;
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #212121;
+    text-transform: uppercase;
+    margin-top: 80px;
+
+}
+
+}
+
+.type1{
+    background-color: #fff;
+    width: 95vw;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    color: #212121;
+    margin-bottom: 75px;
+    padding-bottom: 30px;
+
+
+}
+
+.top{
+    margin-left: 8vh;
+}
+
+.heading2{
+    color: #212121;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 8vh;
+    margin-bottom: 10px;
+
+}
+
+.line{
+    width: 2vw;
+    color: #414141;
+    background-color: #414141;
+    height: 1px;
+    padding-left: 8vh;
+    margin-top: 0px;
+}
+
+.text{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #212121;
+    padding-left: 9vh;
+}
+
+.type2{
+    background-color: #f6f6f6;
+    width: 95vw;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    color: #212121;
+    margin-bottom: 75px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
